@@ -1,0 +1,28 @@
+
+/* shedo box css code  */
+
+input:hover{
+    color: red;
+
+}
+.third:hover{
+    color: blue;
+
+}
+
+p:hover{
+    font-size: 30px;
+    background-color: yellow;
+}
+a:visited{
+    color:red;
+
+}
+h1:focus{
+    color: red;
+}
+.red:focus{
+color: brown;
+background-color: black;
+}
+
