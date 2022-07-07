@@ -18,11 +18,26 @@ a:visited{
     color:red;
 
 }
-h1:focus{
-    color: red;
-}
+
+
 .red:focus{
 color: brown;
 background-color: black;
 }
 
+li:first-child{
+    color: red;
+}
+li:nth-child(2n+1){
+    color: blue;
+}
+li:nth-child(2n){
+    color: red;
+}
+
+h1::before{
+    content: ' no need';
+}
+h3::after{
+    content: ' lala' ;
+}
